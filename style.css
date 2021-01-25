@@ -1,0 +1,58 @@
+body {
+    background-color: #e6eff6;
+}
+h2 {
+    font-size: 18px;
+    color: #4c5366;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+    color: #aeafb4;
+}
+
+.btn {
+    transition: .5s;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4c5366;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.btn:hover {
+    background-color: #4aaaf4;
+    color: white;
+    box-shadow: 0 1px 4px rgba(105, 105, 105, 0.575);
+}
+
+
+article {
+    position: relative;
+
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    width: 100px;
+    border: 0;
+    border-top: 1px solid rgb(0, 0, 0);
+    margin-top: -5px;
+    padding: 0;
+}
+
+.contenu {
+    box-shadow: 0 0 4px rgba(105, 105, 105, 0.575);
+    border-radius: 5px;
+    transition: box-shadow .7s;
+    margin-top: 20px;
+}
+
+.contenu:hover {
+    box-shadow: 0 0 20px rgba(105, 105, 105, 0.575);
+}
