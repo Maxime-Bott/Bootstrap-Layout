@@ -1,21 +1,27 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat/Montserrat-Regular.ttf')
+}
+
 body {
     background-color: #e6eff6;
+    font-family: 'Montserrat'
 }
 h2 {
-    font-size: 18px;
+    font-size: 16px;
     color: #4c5366;
     text-align: center;
 }
 
 p {
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     color: #aeafb4;
 }
 
 .btn {
     transition: .5s;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: #4c5366;
     border-radius: 20px;
